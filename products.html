@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Products</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Products</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">Cart</a>
+<a href="contact.html">Contact Us</a>
+<a href="admin.html">Admin</a>
+</nav>
+</header>
+
+<section class="controls">
+<input type="text" id="search" placeholder="Search...">
+<select id="categoryFilter">
+<option value="all">All Categories</option>
+<option value="laptop">Laptop</option>
+<option value="phone">Phone</option>
+<option value="accessory">Accessory</option>
+</select>
+<button onclick="sortProducts()">Sort: High to Low</button>
+</section>
+
+<div id="product-list" class="product-grid">
+<!-- JS loads products with Load More -->
+</div>
+<button id="loadMoreBtn">Load More</button>
+
+<script src="script.js"></script>
+</body>
+</html>

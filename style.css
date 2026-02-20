@@ -1,0 +1,120 @@
+body{
+font-family:'Vazirmatn',sans-serif;
+margin:0;
+background: linear-gradient(120deg,#e0f7e9,#a8e6cf);
+color:#111;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+box-shadow:0 2px 15px rgba(0,0,0,0.05);
+background:white;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#111;
+font-weight:bold;
+}
+
+.slider{
+height:250px;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#c8f0d6;
+font-size:24px;
+font-weight:bold;
+border-radius:15px;
+margin:20px;
+position:relative;
+}
+
+.slider img{
+max-height:150px;
+margin-top:10px;
+border-radius:10px;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+}
+
+.btn{
+background:#2e7d32;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1b5e20;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+font-size:16px;
+}
+
+button{
+padding:10px 15px;
+border:none;
+background:#2e7d32;
+color:white;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#1b5e20;
+}
+
+.controls{
+padding:30px;
+text-align:center;
+}
+
+input, select, textarea{
+padding:10px;
+width:250px;
+border-radius:8px;
+border:1px solid #ddd;
+margin:5px;
+}
+
+.contact{
+padding:50px;
+background:#c8f0d6;
+border-radius:15px;
+text-align:center;
+}
